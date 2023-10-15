@@ -1,2 +1,2 @@
-const dbKey = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@mdn-library.eqmez8w.mongodb.net/local_library?retryWrites=true&w=majority`;
+const dbKey = process.env.MONGO_URI;
 module.exports = dbKey
